@@ -1,1 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed%3Awght%40200%3B300%3B400%3B500%3B600%3B700%3B800%3B900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/assets/images/bg.jpg');
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center center; /* Center the background image */
+    background-attachment: fixed; /* Fix the background image so it doesn't scroll with the content */
+}
+
+.navbar .navbar-brand img.logo {
+    max-height: 50px; /* Adjust the logo size if needed */
+}
