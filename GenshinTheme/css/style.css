@@ -59,7 +59,7 @@ custom scrollbar
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: var(--primary-color);
+    background-color: var(--third-color);
 }
 
 ::-webkit-scrollbar-track{
@@ -166,9 +166,10 @@ p{
     font-size: 0.9375rem;
     font-weight: 600;
     text-transform: capitalize;
-    color: var(--white-color);
+    color: var(--primary-color);
     letter-spacing: 1px;
 }
+
 .navigation-wrap .main-btn{
     padding: 0.3125rem 1.4375rem;
     box-shadow: none;
@@ -179,14 +180,13 @@ p{
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--white-color);
-    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0,0.9);
+    background: var(--third-color);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0,09);
     transition: all .15s ease-in-out 0s;
 }
 /*top banner design*/
 .top-banner{
     width: 100%;
-    height: 100vh;
     background-image: url('/assets/images/bg.jpg');
     background-size: cover;
     padding: 16.875rem 0 9.375rem;
@@ -194,7 +194,7 @@ p{
 
 /*counter design*/
 .counter-section{
-    background-color: var(--primary-color);
+    background-color: var(--third-color);
     padding: 2.5rem 0;
 }
 .counter-section p{
