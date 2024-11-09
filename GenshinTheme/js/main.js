@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }, step);
 }
-counter('count1', 0, 1287, 3000);
-counter('count2', 100, 5786, 2500);
-counter('count3', 0, 1440, 1000);
-counter('count4', 0, 7110, 1000);
+counter('count1', 0, 65395767, 3000);
+counter('count2', 0, 89, 2500);
+counter('count3', 0, 60000000, 1000);
+counter('count4', 0, 7, 1000);
 });
