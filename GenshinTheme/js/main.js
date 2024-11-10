@@ -39,3 +39,24 @@ counter('count3', 0, 60000000, 1000);
 counter('count4', 0, 7, 1000);
 });
 
+//character change
+function changeContent1() {
+    const imgElement = document.getElementById('character-img');
+    const descElement = document.getElementById('character-desc');
+    const sectionElement = document.getElementById('characters');
+
+    // Change the image source and paragraph content
+    imgElement.src = 'assets/images/n1.png'; 
+    descElement.innerHTML = 'The Peacemaker of the Tlalocan, the <br> ender of all disputes.'; 
+    sectionElement.style.backgroundImage = 'url("assets/images/character-bacground.jpg")'; 
+}
+function changeContent2() {
+    const imgElement = document.getElementById('character-img');
+    const descElement = document.getElementById('character-desc');
+    const sectionElement = document.getElementById('characters');
+
+    // Change the image source and paragraph content
+    imgElement.src = 'assets/images/n2.png'; 
+    descElement.innerHTML = 'A young man from the Masters of the <br> Night-Wind who instead lives in the <br> wild alongside all manner of life.'; 
+    sectionElement.style.backgroundImage = 'url("assets/images/character-bacground2.jpg")'; 
+}
