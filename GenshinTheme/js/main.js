@@ -38,3 +38,4 @@ counter('count2', 0, 89, 2500);
 counter('count3', 0, 60000000, 1000);
 counter('count4', 0, 7, 1000);
 });
+
