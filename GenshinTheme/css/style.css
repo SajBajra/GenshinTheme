@@ -242,7 +242,7 @@ p{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
 }
-.column{
+#gallery.column{
     grid-column: span 3;
     width: auto;
     overflow: hidden;
